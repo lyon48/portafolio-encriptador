@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="Challenge01.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto con JavaScript</h1>
+    </header>
+    <div class="container">
+        <div class="left">
+            <h2>Bienvenido al Encriptador!</h2>
+            <span>Escriba su mensaje en el siguiente recuadro y elija la opción de encriptar o desencriptar.</span>
+            <textarea name="txtTransform" id="txtTransform" pattern="[A-Z],[a-z]"></textarea>
+            <h4>*Unicamente usar mínusculas, sin acentos.</h4>
+            <div class="btn-container">
+                <button id="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="Daco_5928602.png" alt="img_Recuadro" class="" id="img_Recuadro">
+            <textarea name="" id="txtTranslate" readonly class="ocult"></textarea>
+            <span class="" id="message">No se ha encontrado ningún texto.</span>
+            <button id="copy" class="ocult">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <h3>Hecho por Leonardo Robles</h3>
+    </footer>
+</body>
+<script src="Challenge01.js"></script>
+</html>
